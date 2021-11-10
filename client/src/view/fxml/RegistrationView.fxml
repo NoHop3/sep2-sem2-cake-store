@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="775.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.RegistrationViewController">
+   <children>
+      <SVGPath content="M511.857,93.15c0.014-0.294,0.012-0.589-0.006-0.883c-0.1-0.311-0.219-0.615-0.356-0.911c-0.489-1.459-1.33-2.776-2.449-3.833c-0.418-0.345-0.869-0.649-1.345-0.907c-0.423-0.274-0.871-0.508-1.338-0.7c-0.582-0.184-1.183-0.305-1.791-0.361c-0.362-0.1-0.731-0.174-1.104-0.223c-0.091,0-0.166,0.049-0.256,0.051c-0.096,0.002-0.181-0.04-0.278-0.035l-298.27,18.622c-1.124-26.087-17.978-48.878-42.592-57.594c1.158-5.723,3.598-11.108,7.136-15.752c9.11-9.808,22.265-14.82,35.592-13.558c4.713,0,8.533-3.82,8.533-8.533S209.514,0,204.801,0c-21.908,0-38.375,6.725-48.942,19.983c-5.212,6.734-8.812,14.572-10.527,22.913c-1.503-0.106-3.002-0.23-4.532-0.23c-31.589,0.055-58.42,23.135-63.194,54.362c-8.447-7.524-19.361-11.685-30.673-11.695c-20.99,0.058-39.381,14.064-45.019,34.282c-1.204,1.457-1.879,3.278-1.915,5.168v285.942C0.001,466.567,49.764,512,110.935,512c0.509-0.053,1.012-0.155,1.502-0.303c1.471,0.438,3.043,0.404,4.494-0.097l389.121-123.65c0.13-0.041,0.216-0.143,0.343-0.19c0.557-0.233,1.087-0.527,1.579-0.877c1.898-1,3.227-2.822,3.598-4.935c0.18-0.568,0.298-1.153,0.352-1.746c0.006-0.135,0.078-0.249,0.078-0.386V93.867C512.001,93.612,511.879,93.398,511.857,93.15z M98.352,86.564c7.752-16.417,24.295-26.873,42.45-26.831c0.912,0,1.804,0.085,2.703,0.137c-0.069,6.324,0.528,12.638,1.78,18.838c0.889,3.873,4.334,6.621,8.308,6.625c0.645,0.002,1.288-0.071,1.917-0.217c4.593-1.054,7.462-5.631,6.409-10.224c0,0,0,0,0-0.001c-0.669-3.524-1.08-7.092-1.231-10.675c23.385,11.042,33.39,38.951,22.348,62.336c-11.042,23.385-38.951,33.39-62.336,22.348C97.315,137.858,87.309,109.949,98.352,86.564z M102.401,494.592c-47.775-3.883-85.333-40.017-85.333-83.867V180.2c19.329,28.791,50.762,47.163,85.333,49.875V494.592z M109.769,213.276c-48.973-0.602-90.236-38.693-92.483-84.59c0.107-0.755,0.211-1.52,0.387-2.344c2.82-13.924,15.056-23.935,29.263-23.942c12.844,0.028,24.24,8.241,28.329,20.417c0.848,2.478,2.806,4.418,5.292,5.242c11.767,33.28,48.285,50.719,81.564,38.952c20.588-7.28,36.035-24.567,40.961-45.841l233.895-14.603l-192.154,62.642c-0.122,0.04-0.202,0.137-0.321,0.182c-0.549,0.236-1.071,0.532-1.557,0.882c-1.9,0.992-3.225,2.816-3.581,4.93c-0.184,0.575-0.304,1.169-0.357,1.771c-0.005,0.124-0.071,0.228-0.071,0.353v44.542c0,4.713-3.82,8.533-8.533,8.533s-8.533-3.82-8.533-8.533V188.5c0-4.713-3.821-8.533-8.533-8.533c-4.713,0-8.533,3.821-8.533,8.533v212.567c0,4.713-3.82,8.533-8.533,8.533s-8.533-3.82-8.533-8.533V199.592c-0.213-0.87-0.354-1.757-0.421-2.65c-0.039-0.119-0.134-0.198-0.178-0.315c-0.233-0.541-0.523-1.056-0.866-1.535c-0.433-0.938-1.151-1.715-2.051-2.22c-0.756-0.735-1.726-1.211-2.769-1.359c-0.621-0.205-1.265-0.335-1.917-0.387c-0.116-0.005-0.213-0.067-0.331-0.067c-0.444,0.052-0.882,0.14-1.312,0.265c-0.448,0.016-0.895,0.07-1.334,0.16L109.769,213.276z M119.468,363.71v-33.256l51.2-16.706v33.256L119.468,363.71z M170.668,364.948v33.274l-51.2,16.685v-33.253L170.668,364.948z M119.468,312.51v-84.456l51.2-16.706v84.456L119.468,312.51z M494.935,373.574L119.468,492.885v-60.021l55.293-18.019c7.586,11.902,23.384,15.402,35.286,7.816c7.376-4.701,11.836-12.848,11.821-21.595v-1.57l273.067-89.066V373.574z M494.935,292.469l-273.067,89.068v-33.24l273.067-89.066V292.469z M494.935,241.269l-273.067,89.068v-33.24l273.067-89.066V241.269z M494.935,190.069l-273.067,89.068v-33.243c2.733,1.012,5.62,1.544,8.533,1.573c14.132-0.015,25.585-11.468,25.6-25.6v-38.344l238.933-77.896V190.069z" fillRule="EVEN_ODD" layoutX="40.0" layoutY="-100.0" opacity="0.1" stroke="#cd069e" strokeLineJoin="BEVEL" style="-fx-scale-x: 0.5; -fx-scale-y: 0.5;">
+         <effect>
+            <Shadow height="53.62" radius="25.5675" width="50.65" />
+         </effect>
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.75">
+               <stops>
+                  <Stop color="#902e79" />
+                  <Stop color="#522246" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </SVGPath>
+      <Circle centerX="300.0" centerY="400.0" fill="#ffb1b1" opacity="0.29" radius="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <effect>
+            <BoxBlur height="43.86" width="247.86" />
+         </effect>
+      </Circle>
+      <Label layoutX="237.0" layoutY="26.0" text="Register" textFill="#522246">
+         <font>
+            <Font name="SansSerif Bold" size="32.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffb2b2a6">
+               <input>
+                  <Glow level="0.45" />
+               </input>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Label fx:id="usernameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="27.0" layoutY="248.0" prefHeight="32.0" prefWidth="550.0" textFill="#522246">
+         <font>
+            <Font name="SansSerif Bold" size="28.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffb2b2a6">
+               <input>
+                  <Glow level="0.45" />
+               </input>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Separator layoutX="27.0" layoutY="280.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="550.0" />
+      <Label layoutX="179.0" layoutY="320.0" text="Email:" textFill="#522246">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffb2b2a6">
+               <input>
+                  <Glow level="0.45" />
+               </input>
+            </DropShadow>
+         </effect>
+      </Label>
+      <TextField fx:id="emailField" layoutX="282.0" layoutY="312.0" opacity="0.3" prefHeight="32.0" prefWidth="233.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffaeae">
+               <input>
+                  <InnerShadow />
+               </input></DropShadow>
+         </effect>
+      </TextField>
+      <Label layoutX="149.0" layoutY="377.0" text="Password:" textFill="#522246">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffb2b2a6">
+               <input>
+                  <Glow level="0.45" />
+               </input>
+            </DropShadow>
+         </effect>
+      </Label>
+      <PasswordField fx:id="passwordField" layoutX="282.0" layoutY="369.0" opacity="0.3" prefHeight="44.0" prefWidth="233.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffaeae">
+               <input>
+                  <InnerShadow />
+               </input></DropShadow>
+         </effect>
+      </PasswordField>
+      <Separator layoutX="27.0" layoutY="422.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="550.0" />
+      <Label layoutX="113.0" layoutY="452.0" text="First Name:" textFill="#522246">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffb2b2a8">
+               <input>
+                  <Glow level="0.45" />
+               </input>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Label layoutX="159.0" layoutY="606.0" text="Gender:" textFill="#522246">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffb2b2a6">
+               <input>
+                  <Glow level="0.45" />
+               </input>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="1.0" layoutX="50.0" layoutY="676.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#register" prefHeight="60.0" prefWidth="227.0" text="REGISTER" textAlignment="CENTER" textFill="#522246">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="1.66" specularConstant="0.32" specularExponent="24.86" surfaceScale="1.96">
+               <bumpInput>
+                  <Shadow blurType="GAUSSIAN" color="#24ff03" height="255.0" radius="118.66" width="221.64" />
+               </bumpInput>
+               <light>
+                  <Light.Distant color="#ffb1b1" />
+               </light>
+            </Lighting>
+         </effect>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="326.0" layoutY="675.0" mnemonicParsing="false" onAction="#cancelRegistration" prefHeight="63.0" prefWidth="227.0" text="CANCEL" textAlignment="CENTER" textFill="#522246">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="1.66" specularConstant="0.32" specularExponent="24.86" surfaceScale="1.96">
+               <bumpInput>
+                  <Shadow blurType="GAUSSIAN" color="#24ff03" height="255.0" radius="118.66" width="221.64" />
+               </bumpInput>
+               <light>
+                  <Light.Distant color="#ffb1b1" />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Label layoutX="383.0" layoutY="452.0" text="Last Name:" textFill="#522246">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffb2b2a6">
+               <input>
+                  <Glow level="0.45" />
+               </input>
+            </DropShadow>
+         </effect>
+      </Label>
+      <TextField fx:id="lastNameField" layoutX="319.0" layoutY="483.0" opacity="0.3" prefHeight="44.0" prefWidth="227.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffaeae">
+               <input>
+                  <InnerShadow />
+               </input></DropShadow>
+         </effect>
+      </TextField>
+      <TextField fx:id="firstNameField" layoutX="50.0" layoutY="483.0" opacity="0.3" prefHeight="44.0" prefWidth="227.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffaeae">
+               <input>
+                  <InnerShadow />
+               </input></DropShadow>
+         </effect>
+      </TextField>
+      <DatePicker fx:id="birthdaySelector" layoutX="319.0" layoutY="557.0" opacity="0.3" prefHeight="37.0" prefWidth="192.0">
+         <effect>
+            <DropShadow color="#ffaeae">
+               <input>
+                  <InnerShadow />
+               </input></DropShadow>
+         </effect>
+      </DatePicker>
+      <Label layoutX="119.0" layoutY="561.0" text="Date of birth:" textFill="#522246">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffb2b2a6">
+               <input>
+                  <Glow level="0.45" />
+               </input>
+            </DropShadow>
+         </effect>
+      </Label>
+      <RadioButton fx:id="maleRadioButton" layoutX="321.0" layoutY="604.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="90.0" selected="true" text="Male" textFill="#522246">
+         <toggleGroup>
+            <ToggleGroup fx:id="Gender" />
+         </toggleGroup>
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffb2b2a6">
+               <input>
+                  <Glow level="0.45" />
+               </input>
+            </DropShadow>
+         </effect>
+      </RadioButton>
+      <RadioButton fx:id="femaleRadioButton" layoutX="406.0" layoutY="604.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="109.0" text="Female" textFill="#522246" toggleGroup="$Gender">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffb2b2a6">
+               <input>
+                  <Glow level="0.45" />
+               </input>
+            </DropShadow>
+         </effect>
+      </RadioButton>
+      <Label fx:id="errorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="747.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="550.0" textFill="#522246">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <SVGPath content="m437.019531 74.980469c-48.351562-48.351563-112.640625-74.980469-181.019531-74.980469-68.382812 0-132.667969 26.628906-181.019531 74.980469-48.351563 48.351562-74.980469 112.636719-74.980469 181.019531 0 68.378906 26.628906 132.667969 74.980469 181.019531 48.351562 48.351563 112.636719 74.980469 181.019531 74.980469 68.378906 0 132.667969-26.628906 181.019531-74.980469 48.351563-48.351562 74.980469-112.640625 74.980469-181.019531 0-68.382812-26.628906-132.667969-74.980469-181.019531zm-308.679687 367.40625c10.707031-61.648438 64.128906-107.121094 127.660156-107.121094 63.535156 0 116.953125 45.472656 127.660156 107.121094-36.347656 24.972656-80.324218 39.613281-127.660156 39.613281s-91.3125-14.640625-127.660156-39.613281zm46.261718-218.519531c0-44.886719 36.515626-81.398438 81.398438-81.398438s81.398438 36.515625 81.398438 81.398438c0 44.882812-36.515626 81.398437-81.398438 81.398437s-81.398438-36.515625-81.398438-81.398437zm235.042969 197.710937c-8.074219-28.699219-24.109375-54.738281-46.585937-75.078125-13.789063-12.480469-29.484375-22.328125-46.359375-29.269531 30.5-19.894531 50.703125-54.3125 50.703125-93.363281 0-61.425782-49.976563-111.398438-111.402344-111.398438s-111.398438 49.972656-111.398438 111.398438c0 39.050781 20.203126 73.46875 50.699219 93.363281-16.871093 6.941406-32.570312 16.785156-46.359375 29.265625-22.472656 20.339844-38.511718 46.378906-46.585937 75.078125-44.472657-41.300781-72.355469-100.238281-72.355469-165.574219 0-124.617188 101.382812-226 226-226s226 101.382812 226 226c0 65.339844-27.882812 124.277344-72.355469 165.578125zm0 0" fillRule="EVEN_ODD" layoutX="44.0" layoutY="-100.0" style="-fx-scale-x: 0.3; -fx-scale-y: 0.3;">
+         <stroke>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#a41919" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </stroke>
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.75">
+               <stops>
+                  <Stop color="#902e79" />
+                  <Stop color="#522246" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </SVGPath>
+      <Separator layoutX="27.0" layoutY="646.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="550.0" />
+      <SVGPath content="M160.746,24.61H23.254C10.432,24.61,0,35.042,0,47.864v88.271c0,12.822,10.432,23.254,23.254,23.254h137.492c12.822,0,23.254-10.432,23.254-23.254V47.864C184,35.042,173.568,24.61,160.746,24.61z M157.113,39.61L92,89.909L26.887,39.61H157.113z M160.746,144.39H23.254c-4.551,0-8.254-3.703-8.254-8.254V49.382l72.415,55.94c1.35,1.043,2.968,1.564,4.585,1.564s3.235-0.521,4.585-1.564L169,49.382v86.753C169,140.687,165.297,144.39,160.746,144.39z" fill="#522246" layoutX="62.0" layoutY="242.0" style="-fx-scale-x: 0.18; -fx-scale-y: 0.18;">
+         <effect>
+            <Glow />
+         </effect>
+      </SVGPath>
+      <Group layoutX="-76.0" layoutY="407.0" style="-fx-scale-x: 0.08; -fx-scale-y: 0.08;">
+         <children>
+            <SVGPath content="M106.667,85.333c23.573,0,42.667-19.093,42.667-42.667C149.333,19.093,130.24,0,106.667,0S64,19.093,64,42.667C64,66.24,83.093,85.333,106.667,85.333z" fill="#522246" />
+            <SVGPath content="M298.667,85.333c23.573,0,42.667-19.093,42.667-42.667C341.333,19.093,322.24,0,298.667,0C275.093,0,256,19.093,256,42.667C256,66.24,275.093,85.333,298.667,85.333z" fill="#522246" />
+            <SVGPath content="M138.667,106.667h-64C51.2,106.667,32,125.867,32,149.333v117.333h32v160h85.333v-160h32V149.333C181.333,125.867,162.133,106.667,138.667,106.667z" fill="#522246" />
+            <SVGPath content="M340.373,135.893c-5.76-17.493-22.08-29.227-40.427-29.227h-2.453c-18.347,0-34.667,11.733-40.427,29.227l-54.4,162.773h64v128h64v-128h64L340.373,135.893z" fill="#522246" fillRule="EVEN_ODD" />
+         </children>
+         <effect>
+            <GaussianBlur radius="15.25" />
+         </effect>
+      </Group>
+      <Group layoutX="60.0" layoutY="534.0" style="-fx-scale-x: 0.5; -fx-scale-y: 0.5;">
+         <children>
+            <SVGPath content="M40.181,29.47a1,1,0,0,1-1-1V15.894H34.819V28.47a1,1,0,0,1-2,0V15.8a1.911,1.911,0,0,1,1.909-1.909h4.543A1.911,1.911,0,0,1,41.181,15.8V28.47A1,1,0,0,1,40.181,29.47Z" fill="#522246" />
+            <SVGPath content="M37,13.113a3.668,3.668,0,0,1-3.664-3.664c0-1.6,2.129-5.723,2.781-6.95a1.041,1.041,0,0,1,1.766,0c.652,1.227,2.781,5.354,2.781,6.95A3.668,3.668,0,0,1,37,13.113Zm0-7.935a17.676,17.676,0,0,0-1.664,4.271,1.664,1.664,0,0,0,3.328,0A17.676,17.676,0,0,0,37,5.178Z" fill="#522246" />
+            <SVGPath content="M37,15.9a1,1,0,0,1-1-1V12.113a1,1,0,0,1,2,0V14.9A1,1,0,0,1,37,15.9Z" fill="#522246" />
+            <SVGPath content="M46.7,44.009a8.114,8.114,0,0,1-5.446-2.018,6.381,6.381,0,0,0-8.492,0,8.362,8.362,0,0,1-10.895,0,6.389,6.389,0,0,0-8.5,0,9.518,9.518,0,0,1-2.944,1.661,2.716,2.716,0,0,1-2.414-.4A2.644,2.644,0,0,1,6.921,41.1V33.013a5.55,5.55,0,0,1,5.544-5.543h49.07a5.55,5.55,0,0,1,5.544,5.543V41.1a2.645,2.645,0,0,1-1.091,2.153,2.684,2.684,0,0,1-2.413.4,9.506,9.506,0,0,1-2.94-1.66,6.378,6.378,0,0,0-8.488,0A8.114,8.114,0,0,1,46.7,44.009Zm-9.693-5.635a8.114,8.114,0,0,1,5.446,2.018,6.383,6.383,0,0,0,8.493,0,8.354,8.354,0,0,1,10.889,0,7.678,7.678,0,0,0,2.341,1.352.7.7,0,0,0,.629-.1.656.656,0,0,0,.274-.541V33.013a3.548,3.548,0,0,0-3.544-3.543H12.465a3.548,3.548,0,0,0-3.544,3.543V41.1a.659.659,0,0,0,.273.54.7.7,0,0,0,.631.1,7.679,7.679,0,0,0,2.345-1.353,8.117,8.117,0,0,1,5.448-2.018,8.117,8.117,0,0,1,5.448,2.018,6.384,6.384,0,0,0,8.494,0A8.116,8.116,0,0,1,37.007,38.374Z" fill="#522246" />
+            <SVGPath content="M62.444,56.277a8.7,8.7,0,0,1-5.672-2,7.049,7.049,0,0,0-9.02,0,9.024,9.024,0,0,1-11.34,0,7.042,7.042,0,0,0-9.014,0,8.7,8.7,0,0,1-5.67,2,8.688,8.688,0,0,1-5.668-2,6.743,6.743,0,0,0-4.506-1.631,1,1,0,1,1,0-2,8.688,8.688,0,0,1,5.668,2,7.042,7.042,0,0,0,9.014,0,9.022,9.022,0,0,1,11.338,0,7.045,7.045,0,0,0,9.016,0,9.03,9.03,0,0,1,11.344,0,6.747,6.747,0,0,0,4.51,1.631,1,1,0,0,1,0,2Z" fill="#522246" />
+            <SVGPath content="M66.878,72H7.122a1,1,0,0,1-1-1V66.879a3.064,3.064,0,0,1,3.061-3.061H64.817a3.064,3.064,0,0,1,3.061,3.061V71A1,1,0,0,1,66.878,72ZM8.122,70H65.878V66.879a1.062,1.062,0,0,0-1.061-1.061H9.183a1.062,1.062,0,0,0-1.061,1.061Z" fill="#522246" />
+            <SVGPath content="M62.444,65.818H11.556a1,1,0,0,1-1-1V43.009a1,1,0,0,1,2,0V63.818H61.444V43.009a1,1,0,0,1,2,0V64.818A1,1,0,0,1,62.444,65.818Z" fill="#522246" />
+         </children>
+         <effect>
+            <Glow level="0.45" />
+         </effect>
+      </Group>
+      <SVGPath content="M463.748,48.251c-64.336-64.336-169.013-64.335-233.349,0.001c-43.945,43.945-59.209,108.706-40.181,167.461L4.396,401.536c-2.813,2.813-4.395,6.621-4.395,10.606V497c0,8.291,6.709,15,15,15h84.858c3.984,0,7.793-1.582,10.605-4.395l21.211-21.226c3.237-3.237,4.819-7.778,4.292-12.334l-2.637-22.793l31.582-2.974c7.178-0.674,12.847-6.343,13.521-13.521l2.974-31.582l22.793,2.651c4.233,0.571,8.496-0.85,11.704-3.691c3.193-2.856,5.024-6.929,5.024-11.206V363h27.422c3.984,0,7.793-1.582,10.605-4.395l38.467-37.958c58.74,19.043,122.381,4.929,166.326-39.046C528.084,217.266,528.084,112.587,463.748,48.251z M421.313,154.321c-17.549,17.549-46.084,17.549-63.633,0s-17.549-46.084,0-63.633s46.084-17.549,63.633,0S438.861,136.772,421.313,154.321z" fill="#522546" layoutX="-128.0" layoutY="135.0" style="-fx-scale-x: 0.06; -fx-scale-y: 0.06;" />
+   </children>
+</AnchorPane>

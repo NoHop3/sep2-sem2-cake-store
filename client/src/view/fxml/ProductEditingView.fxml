@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ProductEditingViewController">
+   <children>
+      <Label fx:id="errorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="11.0" layoutY="21.0" prefHeight="38.0" prefWidth="574.0" text="Edit Product" textAlignment="CENTER" textFill="#ffb1b1">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="94.0" text="Quantity available">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="quantityField" layoutX="300.0" layoutY="86.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffaeae" />
+         </effect>
+      </TextField>
+      <Label layoutX="52.0" layoutY="183.0" text="Name">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameField" layoutX="300.0" layoutY="175.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffaeae" />
+         </effect>
+      </TextField>
+      <Label layoutX="54.0" layoutY="317.0" text="Description">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="descriptionField" layoutX="299.0" layoutY="248.0" prefHeight="170.0" prefWidth="274.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffaeae" />
+         </effect>
+      </TextArea>
+      <Label layoutX="52.0" layoutY="453.0" text="Price">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="priceField" layoutX="300.0" layoutY="445.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow color="#ffaeae" />
+         </effect>
+      </TextField>
+      <Button fx:id="manageButton" layoutX="52.0" layoutY="519.0" mnemonicParsing="false" onAction="#manageProduct" prefHeight="63.0" prefWidth="227.0" text="ADD" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="1.66" specularConstant="0.32" specularExponent="24.86" surfaceScale="1.96">
+               <bumpInput>
+                  <Shadow blurType="GAUSSIAN" color="#24ff03" height="255.0" radius="118.66" width="221.64" />
+               </bumpInput>
+               <light>
+                  <Light.Distant color="#ffb1b1" />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button layoutX="322.0" layoutY="519.0" mnemonicParsing="false" onAction="#cancel" prefHeight="63.0" prefWidth="227.0" text="CANCEL" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="1.66" specularConstant="0.32" specularExponent="24.86" surfaceScale="1.96">
+               <bumpInput>
+                  <Shadow blurType="GAUSSIAN" color="#24ff03" height="255.0" radius="118.66" width="221.64" />
+               </bumpInput>
+               <light>
+                  <Light.Distant color="#ffb1b1" />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
